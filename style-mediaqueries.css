@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        display: none;
+    }
+
+    header nav {
+        display: none;
+    }
+    
+    header #menu-hamburguer {
+    display: block;
+}
+}

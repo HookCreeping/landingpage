@@ -11,33 +11,50 @@
         h1 {
             text-align: center;
             color: red;
+            background-color: black;
         }
-        
-        @media screen and (min-width: 767px) {
+
+        @media screen and (max-width: 767px) {
             h1 {
                 text-align: center;
                 color: red;
+                background-color: black;
             }
         }
 
-        @media screen and (min-width: 768px) {
+        @media screen and (max-width: 991px) {
             h1 {
                 text-align: center;
                 color: blue;
+                background-color: black;
             }
 
 
         }
 
-        @media screen and (min-width: 992px) {
+        @media screen and (max-width: 1440px) {
             h1 {
                 color: green;
+                background-color: black;
             }
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <div class="layout-grid header-flex">
+            <nav>
+                <a href="">Início</a>
+                <a href="">Sobre</a>
+                <a href="">Desafios</a>
+                <a href="">Endereço</a>
+            </nav>
+
+            <img id="menu-hamburguer" src="assets/images/menu_FILL0_wght400_GRAD0_opsz48.png" alt="">
+        </div>
+    </header>
+
     <h1>Titulo</h1>
 </body>
 
